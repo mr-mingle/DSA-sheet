@@ -1,0 +1,11 @@
+
+int sumElement(int arr[],int n)
+{
+    //Your code here
+    int i=0,sum=0;
+    while(n--){
+        sum+=arr[i];
+        i+=1;
+    }
+    return sum;
+}
