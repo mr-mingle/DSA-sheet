@@ -1,0 +1,16 @@
+class Solution{
+public:
+	int search(int arr[], int n, int k) {
+	    // code here
+	    int i=0;
+	    while((i<n)and(arr[i]!=k)){
+	        i++;
+	    }
+	    if(i==n){
+	        return  -1;
+	    }
+	    else{
+	        return i+1;
+	    }
+}
+};
