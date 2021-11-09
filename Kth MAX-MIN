@@ -1,0 +1,7 @@
+n=int(input())
+k=int(input())
+arr=[]
+for i in range(n):
+  arr.append(input())
+arr.sort()
+print("Kth\nMAX-",arr[-k],"\nMIN-",arr[k-1])
